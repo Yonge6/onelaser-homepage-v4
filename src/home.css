@@ -1,22 +1,30 @@
 @font-face {
-  font-family: "Certia";
-  src: url("/fonts/Certia-Regular.otf") format("opentype");
+  font-family: "Barlow Condensed";
+  src: url("/fonts/BarlowCondensed-Medium-Latin.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Certia";
-  src: url("/fonts/Certia-SemiBold.otf") format("opentype");
+  font-family: "Barlow Condensed";
+  src: url("/fonts/BarlowCondensed-SemiBold-Latin.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Certia";
-  src: url("/fonts/Certia-ExtraBold.otf") format("opentype");
+  font-family: "Barlow Condensed";
+  src: url("/fonts/BarlowCondensed-Bold-Latin.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("/fonts/BarlowCondensed-ExtraBold-Latin.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -33,7 +41,7 @@
   overflow: clip;
   background: #fff;
   color: #090909;
-  font-family: "Certia", Arial, sans-serif;
+  font-family: "Barlow Condensed", "Arial Narrow", Arial, sans-serif;
 }
 
 .home-global-chrome {
