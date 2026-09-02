@@ -28,7 +28,8 @@
   font-family: "Noto Sans SC", "Helvetica Neue", Arial, sans-serif;
 }
 
-.home-shell :where(h1, h2, h3),
+.home-shell :where(h1, h2),
+.home-shell .home-ambition-stage h3,
 .home-shell :where(
   .home-why__visual figcaption strong,
   .home-project-modal__economics header b,
@@ -37,6 +38,12 @@
 ) {
   font-family: "Barlow Condensed", "Arial Narrow", Arial, sans-serif;
   font-style: italic;
+  font-weight: 800;
+}
+
+.home-shell h3 {
+  font-family: "Noto Sans SC", "Helvetica Neue", Arial, sans-serif;
+  font-style: normal;
   font-weight: 800;
 }
 
